@@ -1,6 +1,6 @@
 # src/model_training.py
 import os
-from pipeline_components import load_data, train_model, evaluate_model, save_model, log_mlflow_run, extract_data, preprocess_data
+from .pipeline_components import load_data, train_model, evaluate_model, save_model, log_mlflow_run, extract_data, preprocess_data
 from sklearn.datasets import fetch_california_housing
 import pandas as pd
 
