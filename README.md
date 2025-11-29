@@ -18,7 +18,7 @@ mlops-kubeflow-assignment/
 │  └─ raw_data.csv
 │
 ├─ src/                    # Python scripts
-│  ├─ **init**.py
+│  ├─ __init__.py
 │  ├─ pipeline_components.py  # Kubeflow pipeline component functions
 │  └─ model_training.py       # Main training and MLflow logging script
 │
